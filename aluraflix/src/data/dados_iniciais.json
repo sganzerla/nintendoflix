@@ -1,183 +1,305 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Switch",
+      "link": "https://www.youtube.com/watch?v=Dv0Q5tr1Ubk",
+      "cor": "#FF0000",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Comprar jogos Wii U",
+        "url": "https://www.sebodosgames.com/c/nintendo-wii-u"
       },
       "videos": [
-        {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+         {
+          "titulo": "The Legend of Zelda: Breath of the Wild",
+          "url": "https://www.youtube.com/watch?v=Cl6Bc7nZps4"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Super Mario Odissey",
+          "url": "https://www.youtube.com/watch?v=LlqIGmiNV1U"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Animal Crossing: New Horizons Review",
+          "url": "https://www.youtube.com/watch?v=rcI_FUUPqKw"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Pokémon Let's Go Eevee",
+          "url": "https://www.youtube.com/watch?v=MPf6Tk9H-T4"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Splatoon 2",
+          "url": "https://www.youtube.com/watch?v=qN4w5D2tzME"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Super Mario Bros. U Deluxe",
+          "url": "https://www.youtube.com/watch?v=nOKm1fIFiIY"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Yoshi's Crafted World",
+          "url": "https://www.youtube.com/watch?v=7VPgHw8SU1Q"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
-      ]
-    },
-    {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Octopath Traveler - Overview Lauch Trailer",
+          "url": "https://www.youtube.com/watch?v=Fmi8KrntszI"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Fire Emblem Warrior",
+          "url": "https://www.youtube.com/watch?v=dTdVvQv5Mfw"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Wii U",
+      "cor": "#1E90FF",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Comprar jogos Wii U",
+        "url": "https://www.sebodosgames.com/c/nintendo-wii-u"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "The Legend of Zelda: Breath of the Wild",
+          "url": "https://www.youtube.com/watch?v=Dv0Q5tr1Ubk"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Watch Dogs",
+          "url": "https://www.youtube.com/watch?v=dc8-yOZIhZ8"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Super Mario 3D World",
+          "url": "https://www.youtube.com/watch?v=ieempdIVK0c"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Donkey Kong Country: Tropical Freeze",
+          "url": "https://www.youtube.com/watch?v=DueE8vJXpo8"
+        },
+        {
+          "titulo": "Xenoblade Chronicles X",
+          "url": "https://www.youtube.com/watch?v=Mqm3sWzNLjU"
+        },
+        {
+          "titulo": "New Super Mario Bros U",
+          "url": "https://www.youtube.com/watch?v=de5f3mvRyIY"
+        },
+        {
+          "titulo": "Yoshi's Woolly World",
+          "url": "https://www.youtube.com/watch?v=ffgphmen9kQ"
+        },
+        {
+          "titulo": "Zombi U",
+          "url": "https://www.youtube.com/watch?v=26scWGwSFiI"
+        },
+        {
+          "titulo": "Just Dance 2020",
+          "url": "https://www.youtube.com/watch?v=Ycylqkq6Zms"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Wii",
+      "cor": "#B0C4DE",
+      "link_extra": {
+        "text": "Comprar jogos Wii",
+        "url": "https://www.sebodosgames.com/c/nintendo-wii"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Super Mario Galaxy",
+          "url": "https://www.youtube.com/watch?v=2pklIgYHIQ0"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Super Mario Galaxy 2",
+          "url": "https://www.youtube.com/watch?v=mDPHL9fOByM"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Super Mario Bros Wii",
+          "url": "https://www.youtube.com/watch?v=5yOQVYyEFDs"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Mario Kart Wii",
+          "url": "https://www.youtube.com/watch?v=crQeb1pm2IA"
+        },
+        {
+          "titulo": "Wii Sports Resort",
+          "url": "https://www.youtube.com/watch?v=wWo6zYZx2rM"
+        },
+        {
+          "titulo": "Resident Evil 4",
+          "url": "https://www.youtube.com/watch?v=tsAHgopayu8"
+        },
+        {
+          "titulo": "Donkey Kong Country Returns",
+          "url": "https://www.youtube.com/watch?v=roFyWMs3DgY"
+        },
+        {
+          "titulo": "Kirby's Return to Dream Land",
+          "url": "https://www.youtube.com/watch?v=9Q0FdahKbCw"
+        },
+        {
+          "titulo": "Xenoblade Chronicles",
+          "url": "https://www.youtube.com/watch?v=rUPyVjpyTGU"
         }
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "Game Cube",
+      "cor": "#6959CD",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Comprar jogos Game Cube",
+        "url": "https://www.sebodosgames.com/c/nintendo-wii"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Super Mario Sunshine",
+          "url": "https://www.youtube.com/watch?v=9e11_HgnBUg"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "The Legend of Zelda: The Wind Waker",
+          "url": "https://www.youtube.com/watch?v=UXZ9rEWkNII"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Metroid Prime",
+          "url": "https://www.youtube.com/watch?v=o_erwihybUQ"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "SUper Smash Bros. Melee",
+          "url": "https://www.youtube.com/watch?v=NYt9DPYi854"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Pikmin",
+          "url": "https://www.youtube.com/watch?v=Avjo5OGyS2Q"
+        },
+        {
+          "titulo": "Pokemon XD: Gale of Darkness",
+          "url": "https://www.youtube.com/watch?v=2_kyzKug2IE"
+        },
+        {
+          "titulo": "Sonic Riders",
+          "url": "https://www.youtube.com/watch?v=bR8Z-2jx0xM"
+        },
+        {
+          "titulo": "Mario Party 5",
+          "url": "https://www.youtube.com/watch?v=G2Tlaiwby4Q"
+        },
+        {
+          "titulo": "Luigi's Mansion",
+          "url": "https://www.youtube.com/watch?v=V96P5ffpGek"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "titulo": "Nintendo 64",
+      "cor": "#DAA520",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Comprar Jogos Nintendo 64",
+        "url": "https://www.sebodosgames.com/c/nintendo-64-n64"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Super Mario 64",
+          "url": "https://www.youtube.com/watch?v=5pkhiyRMn5s"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Mario Kart 64",
+          "url": "https://www.youtube.com/watch?v=tKP4Ss4ql4c"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Donkey Kong 64",
+          "url": "https://www.youtube.com/watch?v=206dhjIY29w"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "007 Goldeneye",
+          "url": "https://www.youtube.com/watch?v=53DeRWdEMgg"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Star Fox 64",
+          "url": "https://www.youtube.com/watch?v=muT_yfg23JE"
+        },
+        {
+          "titulo": "Kirby 64: The Crystal Shards",
+          "url": "https://www.youtube.com/watch?v=_hsyJr2Tcok"
+        },
+        {
+          "titulo": "The Legend of Zelda: Ocarina of Time",
+          "url": "https://www.youtube.com/watch?v=mF9CxAulk04"
+        }
+      ]
+    },
+    {
+      "titulo": "Super Nintendo",
+      "cor": "#708090",
+      "link_extra": {
+        "text": "Comprar jogos Super Nintendo",
+        "url": "https://www.sebodosgames.com/c/super-nintendo-snes-famicom"
+      },
+      "videos": [
+        {
+          "titulo": "Super Mario World",
+          "url": "https://www.youtube.com/watch?v=5GziWsbFWqg"
+        },
+        {
+          "titulo":"Goof Troop",
+          "url": "https://www.youtube.com/watch?v=2hbce9kjONg"
+        },
+        {
+          "titulo": "Donkey Kong Country",
+          "url": "https://www.youtube.com/watch?v=whp2Y_MjTXs"
+        },
+        {
+          "titulo": "Super Mario Kart",
+          "url": "https://www.youtube.com/watch?v=Q0uzjBTpldo"
+        },
+        {
+          "titulo": "Super Mario World 2: Yoshi's Island",
+          "url": "https://www.youtube.com/watch?v=U8btNneN8ew"
+        },
+        {
+          "titulo": "Mortal Kombat II",
+          "url": "https://www.youtube.com/watch?v=Tyk7BH_j7yo"
+        },
+        {
+          "titulo": "Sunset Riders",
+          "url": "https://www.youtube.com/watch?v=j_8RYvUSCeU"
+        },
+        {
+          "titulo": "Kirb Dream Land 3",
+          "url": "https://www.youtube.com/watch?v=djamgcRUuj4"
+        }
+      ]
+    },
+    {
+      "titulo": "Nintendo",
+      "cor": "#66CDAA",
+      "link_extra": {
+        "text": "Comprar jogos Nintendo",
+        "url": "https://www.sebodosgames.com/c/nintendo-8-bits-nintendinho-nes"
+      },
+      "videos": [
+        {
+          "titulo": "Super Mario Bros",
+          "url": "https://www.youtube.com/watch?v=c2LTcQwmOV4"
+        },
+        {
+          "titulo": "The Legend of Zelda",
+          "url": "https://www.youtube.com/watch?v=6g2vk8Gudqs"
+        },
+        {
+          "titulo": "Tetris",
+          "url": "https://www.youtube.com/watch?v=NLTj9LTd-NA"
+        },
+        {
+          "titulo": "Dr Mario",
+          "url": "https://www.youtube.com/watch?v=ZKpdtk3EWqI"
+        },
+        {
+          "titulo": "Battle City",
+          "url": "https://www.youtube.com/watch?v=MPsA5PtfdL0"
+        },
+        {
+          "titulo": "Donkey Kong",
+          "url": "https://www.youtube.com/watch?v=mKU3pUrJaUs"
+        },
+        {
+          "titulo": "Contra",
+          "url": "https://www.youtube.com/watch?v=2mWZlNOzdv8"
         }
       ]
     }
