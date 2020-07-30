@@ -1,3 +1,3 @@
-# alura-flix-imersao-react
+# nintendoflix
 
 ![image](./resources/demo.gif)
