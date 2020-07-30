@@ -1,0 +1,22 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "2Front End",
+            "descricao": "Wii U",
+            "cor": "#1E90FF"
+        },
+        {
+            "id": 2,
+            "nome": "F3ront End",
+            "descricao": "Wii U",
+            "cor": "#1E90FF"
+        },
+        {
+            "id": 2,
+            "nome": "Fr4ont End",
+            "descricao": "Wii U",
+            "cor": "#1E90FF"
+        }
+    ]
+}
