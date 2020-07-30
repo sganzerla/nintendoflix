@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 
+import FormField from '../../../components/FormField';
+
 function CadastroCategoria() {
 
 
@@ -22,10 +24,9 @@ function CadastroCategoria() {
     }
 
     function handleChange(event) {
-        const { getAttribute, value } = event.target;
         setValue(
-            getAttribute('name'),
-            value
+            event.target.getAttribute('name'),
+            event.target.value
         );
     }
 
@@ -43,24 +44,28 @@ function CadastroCategoria() {
 
             }}>
 
-                <div>
-                    <label>
-                        Nome da Categoria:
-                    <input type="text" name="nome" value={values.nome} onChange={handleChange} />
-                    </label>
-                </div>
+                <FormField
+                    label="Nome da Categoria"
+                    type="text"
+                    name="nome"
+                    value={values.nome}
+                    onChange={handleChange}
+                />
+
                 <div>
                     <label>
                         Descrição:
                     <textarea type="text" name="descricao" value={values.descricao} onChange={handleChange} />
                     </label>
                 </div>
-                <div>
-                    <label>
-                        Cor:
-                    <input type="color" name="cor" value={values.cor} onChange={handleChange} />
-                    </label>
-                </div>
+
+                <FormField
+                    label="Cor"
+                    type="color"
+                    name="cor" value={values.cor}
+                    onChange={handleChange}
+                />
+
                 <button>Cadastrar</button>
             </form>
 
@@ -79,7 +84,7 @@ function CadastroCategoria() {
             <Link to="/">
                 Ir para home
             </Link>
-        </PageDefault>
+        </PageDefault >
     );
 }
 
