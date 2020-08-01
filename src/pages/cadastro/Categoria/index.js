@@ -5,15 +5,8 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 
-function CadastroCategoria() {
-  const valoresIniciais = {
-    nome: '',
-    descricao: '',
-    cor: '',
-  };
-
+function useForm(valoresIniciais) {
   const [values, setValues] = useState(valoresIniciais);
-  const [categorias, setCategorias] = useState([]);
 
   function setValue(chave, valor) {
     setValues({
@@ -28,6 +21,33 @@ function CadastroCategoria() {
       event.target.value,
     );
   }
+
+  function clearForm() {
+    setValues(valoresIniciais);
+  }
+
+  return {
+    values,
+    handleChange,
+    setValues,
+    clearForm,
+  };
+}
+
+function CadastroCategoria() {
+  const valoresIniciais = {
+    nome: '',
+    descricao: '',
+    cor: '',
+  };
+
+  const {
+    handleChange,
+    values,
+    clearForm,
+  } = useForm(valoresIniciais);
+
+  const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
@@ -54,7 +74,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
@@ -93,8 +113,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={categoria.nome}>
-            {categoria.nome}
+          <li key={categoria.titulo}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
