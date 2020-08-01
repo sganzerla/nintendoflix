@@ -4,39 +4,11 @@ import PageDefault from '../../../components/PageDefault';
 
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
-
-function useForm(valoresIniciais) {
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(event) {
-    setValue(
-      event.target.getAttribute('name'),
-      event.target.value,
-    );
-  }
-
-  function clearForm() {
-    setValues(valoresIniciais);
-  }
-
-  return {
-    values,
-    handleChange,
-    setValues,
-    clearForm,
-  };
-}
+import useForm from '../../../hooks/useForms';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
@@ -65,7 +37,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
       <form onSubmit={function handleSubmit(evento) {
         evento.preventDefault();
@@ -79,10 +51,10 @@ function CadastroCategoria() {
       >
 
         <FormField
-          label="Nome da Categoria"
+          label="Título da Categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
