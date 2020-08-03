@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
-
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
-import useForm from '../../../hooks/useForms';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -13,11 +12,7 @@ function CadastroCategoria() {
     cor: '',
   };
 
-  const {
-    handleChange,
-    values,
-    clearForm,
-  } = useForm(valoresIniciais);
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
   const [categorias, setCategorias] = useState([]);
 
@@ -25,11 +20,13 @@ function CadastroCategoria() {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8081/categorias'
       : 'https://nintendoflix.herokuapp.com/categorias';
-
+    // E a ju ama variáveis
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
-        setCategorias([...resposta]);
+        setCategorias([
+          ...resposta,
+        ]);
       });
   }, []);
 
@@ -39,8 +36,9 @@ function CadastroCategoria() {
         Cadastro de Categoria:
         {values.titulo}
       </h1>
-      <form onSubmit={function handleSubmit(evento) {
-        evento.preventDefault();
+
+      <form onSubmit={function handleSubmit(infosDoEvento) {
+        infosDoEvento.preventDefault();
         setCategorias([
           ...categorias,
           values,
@@ -52,7 +50,6 @@ function CadastroCategoria() {
 
         <FormField
           label="Título da Categoria"
-          type="text"
           name="titulo"
           value={values.titulo}
           onChange={handleChange}
@@ -74,18 +71,21 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>Cadastrar</Button>
+        <Button>
+          Cadastrar
+        </Button>
       </form>
 
       {categorias.length === 0 && (
         <div>
+          {/* Cargando... */}
           Loading...
         </div>
       )}
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={categoria.titulo}>
+          <li key={`${categoria.titulo}`}>
             {categoria.titulo}
           </li>
         ))}
