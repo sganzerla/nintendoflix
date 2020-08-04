@@ -1,12 +1,17 @@
 import React from 'react';
+
 import PageDefault from '../../components/PageDefault';
+import Container from '../../components/Container';
+
+import Error404 from './404.webp';
 
 function PageNotFound() {
   return (
     <PageDefault>
-      <div>
-        <img src="./404.gif" alt="404" width="250" />
-      </div>
+      <Container style={{ alignItems: 'center' }}>
+        <img src={Error404} alt="404" />
+        <h2>Página não encontrada</h2>
+      </Container>
     </PageDefault>
 
   );

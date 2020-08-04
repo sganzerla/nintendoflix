@@ -7,6 +7,7 @@ import App from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 import PageNotFound from './pages/PageNotFound';
+import EditarCategoria from './pages/editar/Categoria';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.render(
       <Route path="/" component={App} exact />
       <Route path="/cadastro/video" component={CadastroVideo} />
       <Route path="/cadastro/categoria" component={CadastroCategoria} />
+      <Route path="/editar/categoria/:id" component={EditarCategoria} />
       <Route component={PageNotFound} />
 
     </Switch>
