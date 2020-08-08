@@ -60,4 +60,4 @@ This project was done during the React immersion of [Alura](htts://alura.com.br)
  
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE] file (./LICENSE.md) for more details.
+This project is under the MIT license. See the [LICENSE](./LICENSE.md) file for more details.
